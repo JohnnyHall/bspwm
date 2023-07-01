@@ -19,11 +19,6 @@ case "$1" in
   --terminal)
     alacritty;;
 
-  --floating)
-    alacritty --class FloaTerm,Alacritty \
-					-o window.dimensions.lines=22 \
-					window.dimensions.columns=90;;
-
   --update)
     alacritty --hold --class FloaTerm,Alacritty \
 					-o window.dimensions.lines=22 \
