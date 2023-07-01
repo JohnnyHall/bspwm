@@ -91,3 +91,9 @@ pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-g
 
 # Fix cursor
 xsetroot -cursor_name left_ptr
+
+# Launch Bluetooth applet
+pidof -q blueman-applet || { blueman-applet & }
+
+# Launch Network applet
+pidof -q nm-applet || { nm-applet & }
