@@ -5,7 +5,7 @@
 ## This file will configure the options
 ## and launch the bars corresponding to each theme.
 
-# Set bspwm configuration for Emilia
+# Set bspwm configuration for johnnyhall
 set_bspwm_config() {
 		bspc config border_width 0
 		bspc config top_padding 59
@@ -26,7 +26,7 @@ set_term_config() {
 		-e "s/size: .*/size: 10/g"
 		
 		cat > "$HOME"/.config/alacritty/colors.yml <<- _EOF_
-				# Colors (Tokyo Night) Emilia Rice
+				# Colors (Tokyo Night) johnnyhall Rice
 				colors:
 				  primary:
 				    background: '#1a1b26'
