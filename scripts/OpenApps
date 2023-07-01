@@ -14,7 +14,7 @@ case "$1" in
 		 -theme $HOME/.config/bspwm/rices/${RICETHEME}/launcher.rasi;;
 
   --rice)
-	RiceSelector;;
+	  RiceSelector;;
 
   --terminal)
     alacritty;;
