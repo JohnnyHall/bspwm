@@ -23,7 +23,7 @@ set_bspwm_config() {
 set_term_config() {
 		sed -i "$HOME"/.config/alacritty/fonts.yml \
 		-e "s/family: .*/family: JetBrainsMono Nerd Font/g" \
-		-e "s/size: .*/size: 10/g"
+		-e "s/size: .*/size: 8/g"
 		
 		cat > "$HOME"/.config/alacritty/colors.yml <<- _EOF_
 				# Colors Cynthia Rice
